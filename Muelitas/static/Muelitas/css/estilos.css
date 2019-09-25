@@ -1,0 +1,58 @@
+body {
+    overflow-x:hidden;
+}
+
+.back-ground{
+    background-image: url(../img/odontologia/12222.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.cont-block{
+    background:#D3D3D3; 
+    border-radius: 10px; 
+    width: 40%; 
+    height: 40%;
+    padding: 20px 10px 20px 10px
+}
+
+.login-sec{
+    padding: 50px 30px; 
+    position:relative;
+}
+    
+.login-sec .login-h2{
+    margin-bottom:30px; 
+    font-weight:800; 
+    font-size:30px; 
+    color: #0069c0;
+}
+
+.login-sec h2:after{ 
+    content:" "; 
+    width:100px; 
+    height:5px; 
+    background:#6ec6ff; 
+    display:block; 
+    margin-top:20px; 
+    border-radius:3px; 
+    margin-left:auto;
+    margin-right:auto
+}
+
+.btn-login{
+    background: #0069c0; 
+    color:#fff; 
+    font-weight:500; 
+      
+}
+
+.btn-center{
+   
+    display: flex;
+    justify-content: center;
+}
