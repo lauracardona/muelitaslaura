@@ -25,7 +25,7 @@ SECRET_KEY = 'r6re4po0zcrx(k)-=j8pr=i!%*)+#&wbrxp*+i_oeg_+t^%(1@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.74.90.92']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'MuelitasWeb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'as_dental',
+        'NAME': 'muelitas',
         'USER': 'laura',
         'PASSWORD': '',
         'HOST': 'localhost',
